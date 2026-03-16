@@ -172,6 +172,48 @@
 		)
 	)
 	(sheet
+		(at 30.988 68.326)
+		(size 41.402 21.082)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f23b4977-6686-48f2-a7cc-38e7a8557897")
+		(property "Sheetname" "OCP"
+			(at 30.988 67.6144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ocp.kicad_sch"
+			(at 30.988 89.9926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "payload1_board"
+				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 81.28 31.75)
 		(size 41.91 21.59)
 		(exclude_from_sim no)
