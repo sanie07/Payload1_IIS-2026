@@ -620,16 +620,12 @@
       "MCU"
     ],
     [
-      "f2ec5e10-3e2b-4fad-b66b-c622a3150eea",
-      "RF"
-    ],
-    [
-      "9ced98fe-3695-442f-a613-f1ea774ec3ca",
-      "GPS"
-    ],
-    [
       "5a5868df-6803-4923-b917-750caae40df4",
       "Sensores"
+    ],
+    [
+      "d7eace06-cf6e-496a-baaa-0614e4b054f0",
+      "IO_CONN"
     ],
     [
       "f23b4977-6686-48f2-a7cc-38e7a8557897",

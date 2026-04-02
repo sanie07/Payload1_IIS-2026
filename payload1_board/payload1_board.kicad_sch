@@ -5,48 +5,8 @@
 	(uuid "ea597178-b44d-4db9-826c-8f86e8d231f0")
 	(paper "A4")
 	(lib_symbols)
-	(text_box "GPS: MAX-M10S"
-		(exclude_from_sim no)
-		(at 135.89 55.88 0)
-		(size 33.02 6.35)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "b2ed945d-0119-4c7d-86c7-72bf6afb9a3a")
-	)
-	(text_box "IMU: acelerometro, magnetometro y giroscopio"
-		(exclude_from_sim no)
-		(at 186.69 55.88 0)
-		(size 35.56 6.35)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "e32ce7c3-841a-42cd-ba61-cae62d2739c5")
-	)
 	(sheet
-		(at 185.42 31.75)
+		(at 133.858 31.496)
 		(size 39.37 21.59)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -62,7 +22,7 @@
 		)
 		(uuid "5a5868df-6803-4923-b917-750caae40df4")
 		(property "Sheetname" "Sensores"
-			(at 185.42 31.0384 0)
+			(at 133.858 30.7844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -71,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "sensores.kicad_sch"
-			(at 185.42 53.9246 0)
+			(at 133.858 53.6706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -88,8 +48,8 @@
 		)
 	)
 	(sheet
-		(at 135.89 31.75)
-		(size 34.29 21.59)
+		(at 181.61 31.242)
+		(size 44.958 21.082)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -102,9 +62,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "9ced98fe-3695-442f-a613-f1ea774ec3ca")
-		(property "Sheetname" "GPS"
-			(at 135.89 31.0384 0)
+		(uuid "d7eace06-cf6e-496a-baaa-0614e4b054f0")
+		(property "Sheetname" "IO_CONN"
+			(at 181.61 30.5304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -112,8 +72,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "gps.kicad_sch"
-			(at 135.89 53.9246 0)
+		(property "Sheetfile" "io_conn.kicad_sch"
+			(at 181.61 52.9086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -124,7 +84,7 @@
 		(instances
 			(project "payload1_board"
 				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0"
-					(page "4")
+					(page "5")
 				)
 			)
 		)
@@ -172,7 +132,7 @@
 		)
 	)
 	(sheet
-		(at 30.988 68.326)
+		(at 82.296 31.496)
 		(size 41.402 21.082)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -188,7 +148,7 @@
 		)
 		(uuid "f23b4977-6686-48f2-a7cc-38e7a8557897")
 		(property "Sheetname" "OCP"
-			(at 30.988 67.6144 0)
+			(at 82.296 30.7844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -197,7 +157,7 @@
 			)
 		)
 		(property "Sheetfile" "ocp.kicad_sch"
-			(at 30.988 89.9926 0)
+			(at 82.296 53.1626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -209,48 +169,6 @@
 			(project "payload1_board"
 				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 81.28 31.75)
-		(size 41.91 21.59)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f2ec5e10-3e2b-4fad-b66b-c622a3150eea")
-		(property "Sheetname" "RF"
-			(at 81.28 31.0384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "rf.kicad_sch"
-			(at 81.28 53.9246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "payload1_board"
-				(path "/ea597178-b44d-4db9-826c-8f86e8d231f0"
-					(page "3")
 				)
 			)
 		)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STM32F411CEU7
+D Arm Cortex-M4 32b MCU+FPU, 125 DMIPS, 512KB Flash, 128KB RAM, USB OTG FS, 11 TIMs, 1 ADC, 13 comm. interfaces
+K
+F https://www.st.com/resource/en/datasheet/stm32f411ce.pdf
+$ENDCMP
+#
+#End Doc Library

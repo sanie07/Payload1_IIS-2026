@@ -9,4 +9,8 @@
   (lib (name "LTST-C193KRKT-2A")(type "KiCad")(uri "${KIPRJMOD}/Assets/LTST-C193KRKT-2A/LTST-C193KRKT-2A.kicad_sym")(options "")(descr ""))
   (lib (name "MMC5983MA")(type "KiCad")(uri "${KIPRJMOD}/Assets/MMC5983MA/MMC5983MA.kicad_sym")(options "")(descr ""))
   (lib (name "SSM6K403TU_LF")(type "KiCad")(uri "${KIPRJMOD}/Assets/SSM6K403TU_LF/SSM6K403TU_LF.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32F411CEU7")(type "KiCad")(uri "${KIPRJMOD}/Assets/STM32F411/STM32F411CEU7.kicad_sym")(options "")(descr ""))
+  (lib (name "USB_B_micro_edited")(type "KiCad")(uri "${KIPRJMOD}/Assets/USB-B-Micro/USB_B_micro_edited.kicad_sym")(options "")(descr ""))
+  (lib (name "BAT760-7")(type "KiCad")(uri "${KIPRJMOD}/Assets/BAT760_7/BAT760-7.kicad_sym")(options "")(descr ""))
+  (lib (name "ADP122AUJZ-3.3-R7")(type "KiCad")(uri "${KIPRJMOD}/Assets/ADP122AUJZ_3_3_R7/ADP122AUJZ-3.3-R7.kicad_sym")(options "")(descr ""))
 )
