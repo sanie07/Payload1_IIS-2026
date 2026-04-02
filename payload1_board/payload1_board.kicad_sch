@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "ea597178-b44d-4db9-826c-8f86e8d231f0")
 	(paper "A4")
+	(title_block
+		(title "Payload 2nd stage")
+		(date "01/04/2026")
+		(company "Sanie Peralta, Alejandro Campo")
+	)
 	(lib_symbols)
 	(sheet
 		(at 133.858 31.496)
